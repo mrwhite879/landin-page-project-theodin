@@ -4,7 +4,7 @@ background-color:#1F2937;
 .wrapper{
 max-width:1200px;
 margin:0 auto;
-padding: 0 40px;
+padding: 0 80px;
 }
 .contenedor {
 display:flex;
@@ -25,9 +25,43 @@ gap:20px;
 background-color:blue;
 }
 .bloque-texto {
-flex:1;
+
+justify-content:space-between;
+
 }
 
 .bloque-imagen {
+border:2px solid red;
+height:200px;
+margin-right:0px;
+margin-top:40px;
 flex:1;
+}
+
+.second {
+border:2px solid red;
+display:flex;
+justify-content:space-between;
+height:250px;
+flex-direction:column;
+background-color:#1F2937;
+}
+
+.cub {
+border:2px solid red;
+width: 97px;
+  height: 90px;
+border-radius:15px;
+
+}
+.cont {
+display:flex;
+height:150px;
+justify-content:center;
+gap:25px;
+}
+
+.sec-head{
+height:50px;
+align-self:center;
 }
