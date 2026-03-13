@@ -2,55 +2,72 @@
 <html lang="en">
 	<head>
 		<meta charset="UTF-8">
+		<link href="style.css" rel="stylesheet">
 	</head>
-	
-	<header>
-		<a>
+	<body>
+	<header class="wrapper">
 		
-		header logo</a>
+		<div class="contenedor">
+			
+				<a class="logo">
+		
+					header logo
+				</a>
     
-    <nav>
-        <ul>
-            <li>header link one</li>
-            <li>header link two</li>
-            <li>header link three</li>
-        </ul>
-    </nav>
+			<nav class="panel">
+				<ul id="list">
+					<li class="item" >header link one </li>
+					<li class="item" >header link two</li>
+					<li class="item" >header link three</li>
+				</ul>
+			</nav>
     
+		</div>
+		 
 	</header>
 	
-	<main>
+	<main class="wrapper">
 		
-		<section>
-			<article>
-				<h1>This website is awesome</h1>
-					<p>Esta página te ayudara a mejorar tus habilidades como programador</p>
-						<button> sign up</button>
-						<div> aca va una imagen sin derechos de autor</div>
-			
+		<section class="all">
+			<article class="top">
+				<div class="contenedor">
+					<div class="bloque-texto">
+				<h2 id="first-head">
+					This website is awesome
+				
+				</h2>
+				
+				<p class="parrafo">
+						Esta página te ayudara a mejorar tus habilidades como programador
+				</p>
+						<button class="button"> sign up</button>
+					</div>
+						<div class="bloque-imagen"> aca va una imagen sin derechos de autor</div>
+				</div>
 			</article>
 			
-			<article>
-				<h2>Some random information</h2>
+			<article class="second">
+				<h2 class="sec-head">Some random information</h2>
 				
-				<div>
-					<div></div>
-					<div></div>
-					<div></div>
-					<div></div>
+				<div class="cont">
+					<div class="cub"></div>
+					<div class="cub"></div>
+					<div class="cub"></div>
+					<div class="cub"></div>
+					
 				</div>
 			
 			</article>
 			
-			<article>
-				frase
+			<article class="third">
+				<p class="large-text"></p>
 			
 			</article>
 			
-			<article>
-				<div>
-					<h3>call to action, it is time</h3>
-					<button>sign up</button>
+			<article class="last">
+				<div class="thelastlast">
+					<h3 class="txt">call to action, it is time</h3>
+					<button class="button">sign up</button>
 				</div>	
 			</article>
 		
@@ -60,5 +77,6 @@
 	
 	</main>
 	
-	<footer>Copiright the odin project</footer>
+	<footer class="wrapper">Copiright the odin project</footer>
+	</body>
 </html>

@@ -1,0 +1,33 @@
+body{
+background-color:#1F2937;
+}
+.wrapper{
+max-width:1200px;
+margin:0 auto;
+padding: 0 40px;
+}
+.contenedor {
+display:flex;
+border:2px solid red;
+justify-content:space-between;
+align-items:center;
+background-color:#1F2937;
+color:#F9FAF8;
+}
+
+#list {
+display:flex;
+list-style:none;
+gap:20px;
+}
+
+.header-fondo{
+background-color:blue;
+}
+.bloque-texto {
+flex:1;
+}
+
+.bloque-imagen {
+flex:1;
+}
