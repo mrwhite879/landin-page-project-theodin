@@ -1,67 +1,113 @@
+
+* {
+font-family: roboto;
+}
 body{
-background-color:#1F2937;
+	background-color:#1F2937;
+	
 }
 .wrapper{
-max-width:1200px;
-margin:0 auto;
-padding: 0 80px;
+	max-width:1200px;
+	margin:0 auto;
+	
 }
 .contenedor {
-display:flex;
-border:2px solid red;
-justify-content:space-between;
-align-items:center;
-background-color:#1F2937;
-color:#F9FAF8;
+	display:flex;
+	
+	justify-content:space-between;
+	align-items:center;
+	background-color:#1F2937;
+	color:#F9FAF8;
+	padding-left:110px;
+	padding-right:110px;
 }
 
 #list {
-display:flex;
-list-style:none;
-gap:20px;
+	display:flex;
+	list-style:none;
+	gap:20px;
 }
 
 .header-fondo{
-background-color:blue;
+	background-color:blue;
 }
-.bloque-texto {
 
-justify-content:space-between;
-
-}
 
 .bloque-imagen {
-border:2px solid red;
-height:200px;
-margin-right:0px;
-margin-top:40px;
-flex:1;
-}
+	border:2px solid red;
+	height:200px;
+	margin-left:165px;
+	flex-basis:100%;
 
-.second {
-border:2px solid red;
-display:flex;
-justify-content:space-between;
-height:250px;
-flex-direction:column;
-background-color:#1F2937;
+}
+	
+#second {
+	
+	display:flex;
+	justify-content:start;
+	height:400px;
+	flex-direction:column;
+	background-color:white;
+	margin-top:70px;
 }
 
 .cub {
-border:2px solid red;
-width: 97px;
-  height: 90px;
-border-radius:15px;
+	border:2px solid #3882F6;
+	width: 97px;
+	height: 90px;
+	border-radius:15px;
 
 }
 .cont {
-display:flex;
-height:150px;
-justify-content:center;
-gap:25px;
+	display:flex;
+	flex-direction:column;
+	max-width:101px;
+	align-items:center;
+	text-align:center;
 }
 
-.sec-head{
-height:50px;
-align-self:center;
+.sec-head {
+	height:50px;
+	align-self:center;
 }
+.text-box {
+	display:flex;
+}
+
+.box-contenedor {
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	gap:35px;
+	}
+.cont p {
+	width: 100%;
+	flex-shrink:0;
+	overflow-wrap: break-word;
+	}
+.third,.large-text {
+	
+	}
+.large-text {
+	flex-direction:column;
+	display:flex;
+	margin:0px;
+	padding:150px;
+	}
+#diego {
+	text-align:end;
+	justify-content:end;
+	}
+#shiiiet {
+	background-color:#E5E7EB;
+	}
+#margin-box {
+	margin-top:50px;
+	}
+	
+#bloque-texto {
+	display:flex;
+	flex-direction:column;
+	align-items:start;
+	justify-content:start;
+	}
